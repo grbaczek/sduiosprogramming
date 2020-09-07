@@ -1,1 +1,1 @@
-# SDU iOS Programming Solutions to exercises
+# SDU iOS Programming - solutions to exercises
