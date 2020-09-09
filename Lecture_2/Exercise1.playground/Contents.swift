@@ -30,12 +30,6 @@ class Stack{
         return elementToPop
     }
     
-    /*func updateTopElement(newValue: String){
-        if(stackCounter > 0){
-            stackElements[stackCounter - 1].value = newValue
-        }
-    }*/
-    
     func peekTopElement() -> StackElement?{
         if(stackCounter > 0){
             return stackElements[stackCounter - 1]
