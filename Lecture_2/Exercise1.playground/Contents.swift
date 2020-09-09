@@ -22,12 +22,15 @@ class Stack{
         stackCounter += 1
     }
     
-    func popElement() -> StackElement{
-        let elementToPop = stackElements[stackCounter - 1]
+    func popElement() -> StackElement?{
         if(stackCounter > 0){
+            let elementToPop = stackElements[stackCounter - 1]
             stackCounter -= 1
+            return elementToPop
         }
-        return elementToPop
+        else{
+            return nil
+        }
     }
     
     func peekTopElement() -> StackElement?{
@@ -62,7 +65,7 @@ stack.printStackElements()
 
 let poppedElement = stack.popElement()
 
-print("Popped element: \(poppedElement)")
+print("Popped element: \(poppedElement!)")
 
 stack.printStackElements()
 

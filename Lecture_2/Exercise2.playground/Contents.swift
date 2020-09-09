@@ -22,12 +22,15 @@ struct Stack{
         stackCounter += 1
     }
     
-    mutating func popElement() -> StackElement{
-        let elementToPop = stackElements[stackCounter - 1]
+    mutating func popElement() -> StackElement?{
         if(stackCounter > 0){
+            let elementToPop = stackElements[stackCounter - 1]
             stackCounter -= 1
+            return elementToPop
         }
-        return elementToPop
+        else{
+            return nil
+        }
     }
     
     mutating func updateTopElement(newValue: String){
@@ -69,7 +72,7 @@ stack.printStackElements()
 
 let popedElement = stack.popElement()
 
-print("Poped element: \(popedElement)")
+print("Poped element: \(popedElement!)")
 
 stack.printStackElements()
 
