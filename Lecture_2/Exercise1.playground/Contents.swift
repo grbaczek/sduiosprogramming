@@ -66,9 +66,9 @@ stack.pushElement(element: StackElement(value: "Fifth"))
 
 stack.printStackElements()
 
-let popedElement = stack.popElement()
+let poppedElement = stack.popElement()
 
-print("Poped element: \(popedElement)")
+print("Popped element: \(poppedElement)")
 
 stack.printStackElements()
 
