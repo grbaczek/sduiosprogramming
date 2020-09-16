@@ -11,8 +11,6 @@ struct Dictionary {
     
     mutating func put(key: Int, value: String) {
         if let index = keys.firstIndex(of: key) {
-            keys.remove(at: index)
-            keys.insert(key, at: index)
             values.remove(at: index)
             values.insert(value, at: index)
         } else {
