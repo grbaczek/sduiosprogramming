@@ -75,3 +75,7 @@ if let topElement = stack.peekTopElement(){
 }
 
 stack.printStackElements()
+
+struct test{}
+
+
