@@ -36,6 +36,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+   
 
     private func showResult(_ result: String) {
         scoreManager.registerScore(for: result)
