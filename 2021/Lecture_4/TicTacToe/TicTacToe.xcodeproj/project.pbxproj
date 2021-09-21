@@ -11,8 +11,6 @@
 		4370FC1C26F9EB8200B70A3F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC1B26F9EB8200B70A3F /* ContentView.swift */; };
 		4370FC1E26F9EB8500B70A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4370FC1D26F9EB8500B70A3F /* Assets.xcassets */; };
 		4370FC2126F9EB8500B70A3F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4370FC2026F9EB8500B70A3F /* Preview Assets.xcassets */; };
-		4370FC2A26F9EF8700B70A3F /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC2926F9EF8700B70A3F /* BoardView.swift */; };
-		4370FC2C26F9F05E00B70A3F /* FieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC2B26F9F05E00B70A3F /* FieldView.swift */; };
 		4370FC2F26F9F13B00B70A3F /* BoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC2E26F9F13B00B70A3F /* BoardViewModel.swift */; };
 		4370FC3326F9FFF700B70A3F /* FieldState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC3226F9FFF700B70A3F /* FieldState.swift */; };
 		4370FC3626FA0EAF00B70A3F /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4370FC3526FA0EAF00B70A3F /* BoardModel.swift */; };
@@ -25,8 +23,6 @@
 		4370FC1D26F9EB8500B70A3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4370FC2026F9EB8500B70A3F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4370FC2226F9EB8500B70A3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4370FC2926F9EF8700B70A3F /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
-		4370FC2B26F9F05E00B70A3F /* FieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldView.swift; sourceTree = "<group>"; };
 		4370FC2E26F9F13B00B70A3F /* BoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewModel.swift; sourceTree = "<group>"; };
 		4370FC3226F9FFF700B70A3F /* FieldState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldState.swift; sourceTree = "<group>"; };
 		4370FC3526FA0EAF00B70A3F /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
@@ -85,9 +81,7 @@
 		4370FC2826F9EF5500B70A3F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4370FC2926F9EF8700B70A3F /* BoardView.swift */,
 				4370FC1B26F9EB8200B70A3F /* ContentView.swift */,
-				4370FC2B26F9F05E00B70A3F /* FieldView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,9 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4370FC2A26F9EF8700B70A3F /* BoardView.swift in Sources */,
 				4370FC3626FA0EAF00B70A3F /* BoardModel.swift in Sources */,
-				4370FC2C26F9F05E00B70A3F /* FieldView.swift in Sources */,
 				4370FC3326F9FFF700B70A3F /* FieldState.swift in Sources */,
 				4370FC1C26F9EB8200B70A3F /* ContentView.swift in Sources */,
 				4370FC1A26F9EB8200B70A3F /* TicTacToeApp.swift in Sources */,
