@@ -62,7 +62,6 @@
 				4370FC2D26F9F11600B70A3F /* ViewModels */,
 				4370FC2826F9EF5500B70A3F /* Views */,
 				4370FC1926F9EB8200B70A3F /* TicTacToeApp.swift */,
-				4370FC3226F9FFF700B70A3F /* FieldState.swift */,
 				4370FC1D26F9EB8500B70A3F /* Assets.xcassets */,
 				4370FC2226F9EB8500B70A3F /* Info.plist */,
 				4370FC1F26F9EB8500B70A3F /* Preview Content */,
@@ -97,6 +96,7 @@
 		4370FC3426FA0EA100B70A3F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4370FC3226F9FFF700B70A3F /* FieldState.swift */,
 				4370FC3526FA0EAF00B70A3F /* BoardModel.swift */,
 			);
 			path = Models;

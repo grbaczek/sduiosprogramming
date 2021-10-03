@@ -17,7 +17,11 @@ struct BoardModel {
     }
     
     func hasWinner() -> Bool {
-        return !winConditions.allSatisfy{condition in board[condition.first!] == .empty || !condition.dropFirst().map{board[$0]}.allSatisfy{$0 == board[condition.first!]}}
+        return winConditions.contains{ condition in
+            board[condition.first!] != .empty && condition.dropFirst().map{
+                board[$0]}.allSatisfy{$0 == board[condition.first!]}
+            
+        }
     }
     
     func full() -> Bool {
