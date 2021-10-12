@@ -12,7 +12,7 @@ struct FieldView: View {
     let cross = #imageLiteral(resourceName: "cross")
     let nought = #imageLiteral(resourceName: "nought")
     
-    @StateObject var boardViewModel: BoardViewModel
+    @ObservedObject var boardViewModel: BoardViewModel
     var index: Int
     
     var body: some View {

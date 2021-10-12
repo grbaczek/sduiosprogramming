@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BoardView: View {
     
-    @StateObject var boardViewModel: BoardViewModel
+    @ObservedObject var boardViewModel: BoardViewModel
     
     var body: some View {
         ZStack {
