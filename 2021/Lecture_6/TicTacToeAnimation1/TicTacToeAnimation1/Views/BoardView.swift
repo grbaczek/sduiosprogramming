@@ -28,9 +28,9 @@ struct BoardView: View {
                 }
             }
         }
-        .alert(isPresented: $boardViewModel.boardModel.gameOver) {
+        /*.alert(isPresented: $boardViewModel.boardModel.gameOver) {
             Alert(title: Text(boardViewModel.boardModel.gameOverText!), dismissButton: Alert.Button.destructive(Text("Play Again"), action:  boardViewModel.reset) )
-        }
+        }*/
     }
 }
 
