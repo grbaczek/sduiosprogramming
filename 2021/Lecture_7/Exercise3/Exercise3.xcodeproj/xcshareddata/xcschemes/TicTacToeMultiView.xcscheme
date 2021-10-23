@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "436B124E270F07770005BF37"
-               BuildableName = "TicTacToeAnimation1.app"
-               BlueprintName = "TicTacToeAnimation1"
-               ReferencedContainer = "container:TicTacToeAnimation1.xcodeproj">
+               BuildableName = "Exercise3.app"
+               BlueprintName = "Exercise3"
+               ReferencedContainer = "container:Exercise3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
-            BuildableName = "TicTacToeAnimation1.app"
-            BlueprintName = "TicTacToeAnimation1"
-            ReferencedContainer = "container:TicTacToeAnimation1.xcodeproj">
+            BuildableName = "Exercise3.app"
+            BlueprintName = "Exercise3"
+            ReferencedContainer = "container:Exercise3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
-            BuildableName = "TicTacToeAnimation1.app"
-            BlueprintName = "TicTacToeAnimation1"
-            ReferencedContainer = "container:TicTacToeAnimation1.xcodeproj">
+            BuildableName = "Exercise3.app"
+            BlueprintName = "Exercise3"
+            ReferencedContainer = "container:Exercise3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
