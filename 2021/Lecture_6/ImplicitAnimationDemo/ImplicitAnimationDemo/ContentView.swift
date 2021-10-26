@@ -17,6 +17,7 @@ struct ContentView: View {
             Text("Hello, world!")
                 .rotationEffect(animationDemoViewModel.rotate ? .degrees(360) : .degrees(0))
                 .scaleEffect(animationDemoViewModel.large ? 2.0 : 1.0)
+                .animation(.linear)
                 .padding()
             VStack{
                 Spacer()

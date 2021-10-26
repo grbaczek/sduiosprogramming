@@ -20,6 +20,7 @@ struct TimerShape: Shape{
         set{
             timeLeftPercent = newValue
             if(timeLeftPercent == 0){
+                //we will learn the better way to implement this on lecture 8 (Threading)
                 timeElapsed()
             }
         }
