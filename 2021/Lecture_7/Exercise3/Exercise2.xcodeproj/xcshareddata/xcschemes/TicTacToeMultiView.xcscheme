@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "436B124E270F07770005BF37"
                BuildableName = "Exercise3.app"
-               BlueprintName = "Exercise3"
-               ReferencedContainer = "container:Exercise3.xcodeproj">
+               BlueprintName = "Exercise2"
+               ReferencedContainer = "container:Exercise2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
             BuildableName = "Exercise3.app"
-            BlueprintName = "Exercise3"
-            ReferencedContainer = "container:Exercise3.xcodeproj">
+            BlueprintName = "Exercise2"
+            ReferencedContainer = "container:Exercise2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
             BuildableName = "Exercise3.app"
-            BlueprintName = "Exercise3"
-            ReferencedContainer = "container:Exercise3.xcodeproj">
+            BlueprintName = "Exercise2"
+            ReferencedContainer = "container:Exercise2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

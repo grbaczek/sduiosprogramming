@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		436B124F270F07770005BF37 /* Exercise3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		436B124F270F07770005BF37 /* Exercise2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436B1252270F07770005BF37 /* TicTacToeMultiViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeMultiViewApp.swift; sourceTree = "<group>"; };
 		436B1254270F07770005BF37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		436B1256270F077C0005BF37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		436B1246270F07770005BF37 = {
 			isa = PBXGroup;
 			children = (
-				436B1251270F07770005BF37 /* Exercise3 */,
+				436B1251270F07770005BF37 /* Exercise2 */,
 				436B1250270F07770005BF37 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +55,12 @@
 		436B1250270F07770005BF37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				436B124F270F07770005BF37 /* Exercise3.app */,
+				436B124F270F07770005BF37 /* Exercise2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		436B1251270F07770005BF37 /* Exercise3 */ = {
+		436B1251270F07770005BF37 /* Exercise2 */ = {
 			isa = PBXGroup;
 			children = (
 				436B1273270F08580005BF37 /* Views */,
@@ -70,7 +70,7 @@
 				436B1256270F077C0005BF37 /* Assets.xcassets */,
 				436B1258270F077C0005BF37 /* Preview Content */,
 			);
-			path = Exercise3;
+			path = Exercise2;
 			sourceTree = "<group>";
 		};
 		436B1258270F077C0005BF37 /* Preview Content */ = {
@@ -112,9 +112,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		436B124E270F07770005BF37 /* Exercise3 */ = {
+		436B124E270F07770005BF37 /* Exercise2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 436B125D270F077C0005BF37 /* Build configuration list for PBXNativeTarget "Exercise3" */;
+			buildConfigurationList = 436B125D270F077C0005BF37 /* Build configuration list for PBXNativeTarget "Exercise2" */;
 			buildPhases = (
 				436B124B270F07770005BF37 /* Sources */,
 				436B124C270F07770005BF37 /* Frameworks */,
@@ -124,9 +124,9 @@
 			);
 			dependencies = (
 			);
-			name = Exercise3;
+			name = Exercise2;
 			productName = TicTacToeMultiView;
-			productReference = 436B124F270F07770005BF37 /* Exercise3.app */;
+			productReference = 436B124F270F07770005BF37 /* Exercise2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 436B124A270F07770005BF37 /* Build configuration list for PBXProject "Exercise3" */;
+			buildConfigurationList = 436B124A270F07770005BF37 /* Build configuration list for PBXProject "Exercise2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -157,7 +157,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				436B124E270F07770005BF37 /* Exercise3 */,
+				436B124E270F07770005BF37 /* Exercise2 */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Exercise3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -345,7 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Exercise3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -370,7 +370,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		436B124A270F07770005BF37 /* Build configuration list for PBXProject "Exercise3" */ = {
+		436B124A270F07770005BF37 /* Build configuration list for PBXProject "Exercise2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436B125B270F077C0005BF37 /* Debug */,
@@ -379,7 +379,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		436B125D270F077C0005BF37 /* Build configuration list for PBXNativeTarget "Exercise3" */ = {
+		436B125D270F077C0005BF37 /* Build configuration list for PBXNativeTarget "Exercise2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				436B125E270F077C0005BF37 /* Debug */,

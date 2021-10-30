@@ -31,7 +31,6 @@ class CurrencyViewController: UIViewController {
             print(url)
             var request = URLRequest(url: url)
             request.httpMethod = "GET"
-
             let task = session.dataTask(with: request, completionHandler: { (data, response, error) in
                 DispatchQueue.main.async {
 
