@@ -22,7 +22,6 @@ struct ContentView: View {
                             withAnimation(.linear(duration: boardViewModel.timeForMoveInSeconds)){
                                 boardViewModel.countdownX = true
                                 boardViewModel.countdownY = false
-                                boardViewModel.startTimer()
                             }
                         }
                 } else {
@@ -32,7 +31,6 @@ struct ContentView: View {
                             withAnimation(.linear(duration: boardViewModel.timeForMoveInSeconds)){
                                 boardViewModel.countdownX = false
                                 boardViewModel.countdownY = true
-                                boardViewModel.startTimer()
                             }
                         }
                 }
@@ -45,7 +43,9 @@ struct ContentView: View {
                     .bold()
                 Spacer()
             }
-        }
+        }.onAppear(perform: {
+            boardViewModel.startTimer()
+        })
     }
 }
 

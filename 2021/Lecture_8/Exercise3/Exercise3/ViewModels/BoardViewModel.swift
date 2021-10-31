@@ -18,12 +18,14 @@ class BoardViewModel: ObservableObject {
     
     func setField(index: Int) {
         boardModel.setField(index: index)
+        startTimer()
     }
     
     func reset() {
         boardModel.reset()
         countdownX = false
         countdownY = false
+        startTimer()
     }
     
     func startTimer(){
@@ -38,6 +40,10 @@ class BoardViewModel: ObservableObject {
                     self?.timeElapsed()
                 }
             )
+    }
+    
+    deinit{
+        timerCancelable?.cancel()
     }
     
     func timeElapsed(){

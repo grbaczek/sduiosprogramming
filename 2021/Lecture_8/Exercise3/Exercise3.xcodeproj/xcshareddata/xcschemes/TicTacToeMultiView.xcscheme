@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "436B124E270F07770005BF37"
-               BuildableName = "TicTacToeAnimation2.app"
+               BuildableName = "Exercise3.app"
                BlueprintName = "Exercise3"
                ReferencedContainer = "container:Exercise3.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
-            BuildableName = "TicTacToeAnimation2.app"
+            BuildableName = "Exercise3.app"
             BlueprintName = "Exercise3"
             ReferencedContainer = "container:Exercise3.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "436B124E270F07770005BF37"
-            BuildableName = "TicTacToeAnimation2.app"
+            BuildableName = "Exercise3.app"
             BlueprintName = "Exercise3"
             ReferencedContainer = "container:Exercise3.xcodeproj">
          </BuildableReference>
