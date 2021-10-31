@@ -14,6 +14,7 @@ struct ContentView: View {
         VStack{
             Spacer()
             Text("Current time: \(combineFrameworkNetworkCallExampleViewModel.currentTime)")
+                .font(.body)
                 .padding()
             Spacer()
             Button(action: {
