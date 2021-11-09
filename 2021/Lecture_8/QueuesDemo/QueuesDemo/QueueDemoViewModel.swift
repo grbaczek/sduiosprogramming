@@ -11,11 +11,11 @@ class QueueDemoViewModel: ObservableObject{
     
     @Published var secondButtonCounter = 0
     
-    func performTimeConsumingTask(){
+    func performTimeConsumingTaskOnMainThread(){
         sleep(5)
     }
     
-    func performTimeConsumingTask2(){
+    func performTimeConsumingTaskOnBackgroundThread(){
         DispatchQueue.global(qos: .userInitiated).async {
             print("hello from long running task")
             sleep(5)

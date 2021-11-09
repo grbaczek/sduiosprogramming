@@ -15,7 +15,8 @@ struct ContentView: View {
         VStack{
             Spacer()
             Button(action: {
-                queueDemoViewModel.performTimeConsumingTask()
+                queueDemoViewModel.performTimeConsumingTaskOnMainThread()
+                //queueDemoViewModel.performTimeConsumingTaskOnBackgroundThread()
             }, label: {
                 Text("Perform Time Consuming Task")
             })
