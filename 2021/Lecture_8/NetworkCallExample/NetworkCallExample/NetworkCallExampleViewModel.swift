@@ -15,10 +15,10 @@ struct TimeResponse: Codable {
 
 
 class NetworkCallExampleViewModel: ObservableObject{
-    let session = URLSession(configuration: .default)
-    let timeWebServiceUrl = "https://worldtimeapi.org/api/timezone/Europe/Copenhagen"
-    var currentTask: URLSessionDataTask? = nil
-    let jsonDecoder = JSONDecoder()
+    private let session = URLSession(configuration: .default)
+    private let timeWebServiceUrl = "https://worldtimeapi.org/api/timezone/Europe/Copenhagen"
+    private var currentTask: URLSessionDataTask? = nil
+    private let jsonDecoder = JSONDecoder()
     
     @Published var currentTime: String = ""
     
