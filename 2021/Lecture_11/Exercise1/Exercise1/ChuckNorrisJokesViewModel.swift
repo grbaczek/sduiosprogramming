@@ -20,7 +20,7 @@ class ChuckNorrisJokesViewModel: ObservableObject{
     var cancellable: Cancellable? = nil
     let jsonDecoder = JSONDecoder()
     
-    @Published var currentJoke: String = ""
+    @Published var currentJoke: String = "Pull to download Chuck Norris joke"
     @Published var downloadingJoke: Bool = false
     
     func getCurrentJoke(){
